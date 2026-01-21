@@ -1,17 +1,62 @@
 Soil Project 🌱
-A modern web application built with Next.js 13 (App Router), TypeScript, and TailwindCSS, designed for soil data visualization and interactive UI components. This project provides a clean, scalable architecture and reusable UI elements for building powerful dashboards or environmental data apps.
 
-Deployment Server
-https://soil-crop.netlify.app/
+A modern web application for soil data visualization and environmental insights. Built with Next.js 13 (App Router), TypeScript, and TailwindCSS, the project emphasizes clean architecture, reusable UI components, and scalable patterns for dashboards and geospatial data apps.
 
-Tech Stack
-Next.js 13+ – React framework with App Router TypeScript – Strict typing for safer, scalable code TailwindCSS – Utility-first CSS framework pnpm – Fast package manager Shadcn/UI – Accessible, themeable UI components
+🚀 Deployment
 
-Project Structure
-soil/ ├── app/ # App Router pages, layouts, global styles │ ├── page.tsx # Main page │ ├── layout.tsx # Root layout │ └── globals.css # Global Tailwind styles │ ├── components/ # Reusable UI components (accordion, button, charts, etc.) │ └── ui/ # Shadcn-based UI components │ ├── public/ # Static assets ├── package.json # Project metadata & scripts ├── next.config.mjs # Next.js configuration ├── tailwind.config.ts # TailwindCSS configuration ├── tsconfig.json # TypeScript configuration └── pnpm-lock.yaml # Lockfile for dependencies
+Production Server:
+👉 https://soil-crop.netlify.app/
 
-🎨 UI Components
-This project comes with a collection of prebuilt, reusable UI components such as: Buttons, Inputs, Checkboxes Dialogs, Alerts, Tooltips Cards, Accordions, Tabs Charts and Data Visualization components
+🧩 Tech Stack
 
-📜 License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute this project as you like.
+Next.js 13+ — App Router, Server Components, and modern React
+
+TypeScript — Strict typing for safer, maintainable code
+
+TailwindCSS — Utility-first styling for rapid UI development
+
+pnpm — Fast, disk-efficient package manager
+
+shadcn/ui — Accessible, themeable React components
+
+📂 Project Structure
+soil/
+├── app/                 # App Router pages, layouts, global styles
+│   ├── page.tsx         # Main application page
+│   ├── layout.tsx       # Root layout wrapper
+│   └── globals.css      # Global TailwindCSS styles
+│
+├── components/          # Reusable UI components (accordion, charts, buttons, etc.)
+│   └── ui/              # Shadcn-based UI elements
+│
+├── public/              # Static assets
+│
+├── package.json         # Project metadata & scripts
+├── next.config.mjs      # Next.js configuration
+├── tailwind.config.ts   # TailwindCSS configuration
+├── tsconfig.json        # TypeScript configuration
+└── pnpm-lock.yaml       # Dependency lockfile
+
+🎨 UI Components Included
+
+The project ships with a modular set of reusable UI components:
+
+Buttons, Inputs, Checkboxes
+
+Dialogs, Alerts, Tooltips
+
+Cards, Accordions, Tabs
+
+Charts & Data Visualization utilities
+
+🔧 Installation & Usage
+pnpm install
+pnpm dev
+
+
+Runs locally at: http://localhost:3000
+
+📝 License
+
+Licensed under the MIT License.
+Free to use, modify, and distribute without restrictions.
